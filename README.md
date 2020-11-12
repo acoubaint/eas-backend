@@ -5,6 +5,11 @@
 composer install
 ```
 
+### Copy .env.example to .env
+```
+cp .env.example .env
+```
+
 ### Generate App Key
 ```
 php artisan key:gen
